@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*.crud-wrapper{}*/
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+.crud-tab{margin-top:50px;}
+.crud-btn button{margin-left:20px;background-color:#000;}
+.jumbotron{padding:50px;}
+footer{background-color:#ccc;margin-top:20px;}
+footer h2{padding:20px;}
+.crud-tab h3{text-align: center; font-size:25px;color:#000;border-bottom:solid 1px #ccc;padding-bottom:10px;margin-bottom: 20px;}
+/*.crud-tab .cont-part{min-height:450px;}*/
+.crud-tab img{height:80px;}
+.service-box{
+  margin: 0 auto;padding:50px; text-align: center;border:solid 10px #ccc;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.service-inner{display: table-cell;
+  vertical-align: middle;}
+.service-box h2{text-transform: uppercase;font-size:42px;padding-bottom:20px;}
+.service-box a{color:#000;font-weight: bold; padding-top:30px;}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
